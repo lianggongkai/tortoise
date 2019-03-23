@@ -1,0 +1,28 @@
+master stash
+
+latest 
+
+my today type in
+
+Now test a commit from a stash
+
+This is new commit
+
+my today type in
+
+test stash line put here
+
+my today type in
+
+test stash line put here
+
+master stash test
+test stash line put here
+
+==========================
+
+below is branch01 test
+
+branch01 stash test
+
+branch01 stash test 00

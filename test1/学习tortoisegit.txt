@@ -1,0 +1,21 @@
+1，branch的作用：
+	可以在当前主版本的情况下，进行各种改版和测试。
+        所以可以建立各种branch，进行测试，当然可以只在本地，不进行提交而已。而提交时候，切换到
+        本地的master进行提交就好了。
+
+2，stash 的作用：
+        当你正在干一件事情，还没有完成时候，要去做另一个任务。而又不想提交commit。就可以stash。
+        就是就行本地暂存。暂存完成了。git状态就是clean的。就可以切branch进行别的工作了。
+        而当你完成了branch工作完成了。就可以切换到master了，将刚才你stash进去的代码pop出来了。
+        继续进行了。注意，stash pop时候，如果stash列表，有多个，你要注意了。你的是不是最后一个
+        push进入的。每一次pop时候只能出栈最后push进入的。当然你可以在对应的stash右键点选apply。
+        这时候，就可以将对应的stash拿到了。继续工作了。
+
+
+做工作时候，可以选择这种模式：
+
+	首先拿到master， 然后建立本地的branch，然后在branch 上面建立测试代码，等测试完成了，将
+        branch上的合并到master上面，然后进行提交。
+
+        测试这样可以，master 上面提交一个commit，amend commit。然后在branch测试这个成功后，用
+        branch 合并到master上面。然后再去amend commit，可以么？
