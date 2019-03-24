@@ -26,3 +26,5 @@ below is branch01 test
 branch01 stash test
 
 branch01 stash test 00
+
+branch01 stash
